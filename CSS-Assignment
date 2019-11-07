@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: maroon;}
+h1   {color: black;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>San Francisco 49ers vs. Seattle Seahawks</h1>
+<p>Are you ready for some FOOTBALL?! The 49ers are going to remain undefeated when they beat up on the Seahawks on Monday Night Football!</p>
+
+</body>
+</html>
