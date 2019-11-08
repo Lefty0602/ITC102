@@ -2,9 +2,13 @@
 <html>
 <body>
 
-<h2>Pedro Hernandez</h2>
+<h1>Pedro Hernandez</h1>
 
-<h3>My First JavaScript</h3>
+<p>Click on "My First JavaScript":</p>
+
+<button onclick="hide('#My First JavaScript')">Hide My First JavaScript</button>
+
+<h2> My First JavaScript</h2>
 
 <button type="button"
 onclick="document.getElementById('demo').innerHTML = Date()">
@@ -12,14 +16,14 @@ Click me to display Date and Time.</button>
 
 <p id="demo"></p>
 
-<h4>Is the light working?!</h4>
-
+<h4><font size="10"> Is the light working?!</font></h4>
 <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">
-Turn on the light</button>
 
+Turn on the light</button>
 <img id="myImage" src="pic_bulboff.gif" style="width: 150px">
 
 <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">
+
 Turn off the light</button>
 
 </body>
